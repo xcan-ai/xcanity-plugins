@@ -6,11 +6,11 @@
   "description": "Xcan agent plugins backed by hosted MCP services.",
   "plugins": [
     {
-      "name": "fin-winner-plugin",
+      "name": "fin-winner",
       "source": "./plugins/fin-winner",
       "displayName": "Fin Winner Plugin",
       "description": "Manage watchlists, stock thoughts, valuations, insights, ticker strategies, and analysis reports through the authenticated Fin Winner MCP service.",
-      "version": "0.3.2",
+      "version": "0.3.3",
       "author": {
         "name": "Fin Winner"
       },

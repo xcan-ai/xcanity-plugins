@@ -5,7 +5,7 @@
   },
   "plugins": [
     {
-      "name": "fin-winner-plugin",
+      "name": "fin-winner",
       "source": {
         "source": "local",
         "path": "./plugins/fin-winner"
