@@ -1,7 +1,7 @@
 {
   "name": "fin-winner-plugin",
   "description": "Manage your Fin Winner investment records: watchlists, stock thoughts, valuations, insights, ticker strategies, and analysis reports.",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "author": {
     "name": "Fin Winner"
   },

@@ -1,5 +1,5 @@
 {
-  "name": "xcan",
+  "name": "xcanity",
   "owner": {
     "name": "xcan-ai"
   },
@@ -10,7 +10,7 @@
       "source": "./plugins/fin-winner-plugin",
       "displayName": "Fin Winner Plugin",
       "description": "Manage watchlists, stock thoughts, valuations, insights, ticker strategies, and analysis reports through the authenticated Fin Winner MCP service.",
-      "version": "0.3.0",
+      "version": "0.3.1",
       "author": {
         "name": "Fin Winner"
       },

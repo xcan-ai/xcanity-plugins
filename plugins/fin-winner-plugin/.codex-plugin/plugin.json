@@ -1,6 +1,6 @@
 {
   "name": "fin-winner-plugin",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "description": "Interact with Fin Winner services through the production MCP server.",
   "author": {
     "name": "Fin Winner",

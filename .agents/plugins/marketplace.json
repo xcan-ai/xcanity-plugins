@@ -1,7 +1,7 @@
 {
-  "name": "xcan",
+  "name": "xcanity",
   "interface": {
-    "displayName": "Xcan"
+    "displayName": "Xcanity"
   },
   "plugins": [
     {
