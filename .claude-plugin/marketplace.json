@@ -10,12 +10,12 @@
       "source": "./plugins/fin-winner-plugin",
       "displayName": "Fin Winner Plugin",
       "description": "Manage watchlists, stock thoughts, valuations, insights, ticker strategies, and analysis reports through the authenticated Fin Winner MCP service.",
-      "version": "0.3.1",
+      "version": "0.3.2",
       "author": {
         "name": "Fin Winner"
       },
       "homepage": "https://xcanity.com",
-      "repository": "https://github.com/xcan-ai/xcan-plugins",
+      "repository": "https://github.com/xcan-ai/xcanity-plugins",
       "category": "finance",
       "keywords": [
         "finance",
