@@ -8,7 +8,7 @@
       "name": "fin-winner-plugin",
       "source": {
         "source": "local",
-        "path": "./plugins/fin-winner-plugin"
+        "path": "./plugins/fin-winner"
       },
       "policy": {
         "installation": "AVAILABLE",
