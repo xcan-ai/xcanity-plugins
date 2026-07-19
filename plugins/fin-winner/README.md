@@ -1,4 +1,4 @@
-# Fin Winner Plugin
+# Fin Winner
 
 Fin Winner 投资记录管理插件。安装后，智能体可以通过托管的 MCP 服务读写你的
 Fin Winner 数据：
@@ -47,7 +47,7 @@ codex plugin add fin-winner@xcanity
 ```
 
 首次添加 marketplace 后需要重启 ChatGPT 桌面端。新建任务时启用
-Fin Winner Plugin，按提示完成 OAuth 授权即可。
+Fin Winner，按提示完成 OAuth 授权即可。
 
 从本地检出安装（在仓库根目录执行）：
 

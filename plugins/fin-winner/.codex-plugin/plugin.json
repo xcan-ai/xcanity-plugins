@@ -1,6 +1,6 @@
 {
   "name": "fin-winner",
-  "version": "0.3.3",
+  "version": "0.3.4",
   "description": "Interact with Fin Winner services through the production MCP server.",
   "author": {
     "name": "Fin Winner",
@@ -17,7 +17,7 @@
   "skills": "./skills/",
   "apps": "./.app.json",
   "interface": {
-    "displayName": "Fin Winner Plugin",
+    "displayName": "Fin Winner",
     "shortDescription": "Manage your Fin Winner investment records.",
     "longDescription": "Lists and manages watchlists, investment thoughts, valuations, insights, strategies, and analysis reports through the authenticated Fin Winner service.",
     "developerName": "Fin Winner",

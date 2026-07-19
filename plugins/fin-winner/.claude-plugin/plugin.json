@@ -1,7 +1,7 @@
 {
   "name": "fin-winner",
   "description": "Manage your Fin Winner investment records: watchlists, stock thoughts, valuations, insights, ticker strategies, and analysis reports.",
-  "version": "0.3.3",
+  "version": "0.3.4",
   "author": {
     "name": "Fin Winner"
   },
