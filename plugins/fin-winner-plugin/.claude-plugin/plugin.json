@@ -1,0 +1,10 @@
+{
+  "name": "fin-winner-plugin",
+  "description": "Manage your Fin Winner investment records: watchlists, stock thoughts, valuations, insights, ticker strategies, and analysis reports.",
+  "version": "0.3.0",
+  "author": {
+    "name": "Fin Winner"
+  },
+  "homepage": "https://xcanity.com",
+  "repository": "https://github.com/xcan-ai/xcan-plugins"
+}

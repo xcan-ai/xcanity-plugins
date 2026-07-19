@@ -1,0 +1,38 @@
+{
+  "name": "fin-winner-plugin",
+  "version": "0.3.0",
+  "description": "Interact with Fin Winner services through the production MCP server.",
+  "author": {
+    "name": "Fin Winner",
+    "url": "https://xcanity.com"
+  },
+  "homepage": "https://xcanity.com",
+  "repository": "https://github.com/xcan-ai/xcan-plugins",
+  "keywords": [
+    "finance",
+    "investing",
+    "mcp",
+    "fin-winner"
+  ],
+  "skills": "./skills/",
+  "apps": "./.app.json",
+  "interface": {
+    "displayName": "Fin Winner Plugin",
+    "shortDescription": "Manage your Fin Winner investment records.",
+    "longDescription": "Lists and manages watchlists, investment thoughts, valuations, insights, strategies, and analysis reports through the authenticated Fin Winner service.",
+    "developerName": "Fin Winner",
+    "category": "Finance",
+    "capabilities": [
+      "Read",
+      "Write"
+    ],
+    "websiteURL": "https://xcanity.com",
+    "defaultPrompt": [
+      "Show my current watchlist.",
+      "Find the latest insight for HOOD.",
+      "List my active ticker strategies."
+    ],
+    "brandColor": "#2563EB"
+  },
+  "mcpServers": "./.mcp.json"
+}

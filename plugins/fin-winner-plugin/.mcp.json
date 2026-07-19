@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "fin-winner": {
+      "type": "http",
+      "url": "https://xcanity.com/fw-plugin/mcp",
+      "oauth_resource": "https://xcanity.com/fw-plugin"
+    }
+  }
+}
