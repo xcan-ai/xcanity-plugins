@@ -9,26 +9,50 @@ ChatGPT/Codex、Claude Code 以及任何支持 MCP 的框架都可以直接安�
 
 ## 插件列表
 
-| 插件 | 说明 | MCP 端点 | 状态 |
-| --- | --- | --- | --- |
-| [`fin-winner`](plugins/fin-winner) | 管理 Fin Winner 投资记录：自选股、个股思考、估值、前瞻洞察、交易策略、分析报告 | `https://xcanity.com/fw-plugin/mcp` | 可用 |
-| `ai-counter` | — | — | 规划中 |
-| `clipmusic` | — | — | 规划中 |
+当前 marketplace 中没有可安装的插件。
+
+| 插件 | 说明 | 状态 |
+| --- | --- | --- |
+| `fin-winner` | Fin Winner 投资记录管理（自选股、个股思考、估值、洞察、交易策略、分析报告） | 已下线（2026-10-22） |
+| `ai-counter` | — | 规划中 |
+| `clipmusic` | — | 规划中 |
+
+## 已下线插件
+
+### fin-winner
+
+`fin-winner` 的托管 MCP 服务已于 2026-10-22 停止运行，插件已从 marketplace
+移除，原端点不再可用。已安装的用户请卸载：
+
+```bash
+claude plugin uninstall fin-winner@xcanity
+```
+
+```bash
+codex plugin remove fin-winner@xcanity
+```
+
+在其他 MCP 客户端（Cursor、Windsurf、VS Code、Gemini CLI、claude.ai 连接器等）
+中手动配置过该端点的，请一并删除对应的 `fin-winner` 服务器配置。
+
+最后一个版本（0.3.4）的插件包保留在本仓库的 git 历史中。
 
 ## 安装方法
+
+有插件上架后，按以下方式安装（`<plugin>` 替换为插件名）。
 
 ### Claude Code
 
 ```bash
 claude plugin marketplace add xcan-ai/xcanity-plugins
-claude plugin install fin-winner@xcanity
+claude plugin install <plugin>@xcanity
 ```
 
 ### ChatGPT / Codex
 
 ```bash
 codex plugin marketplace add xcan-ai/xcanity-plugins --ref main
-codex plugin add fin-winner@xcanity
+codex plugin add <plugin>@xcanity
 ```
 
 首次添加 marketplace 后需要重启 ChatGPT 桌面端。
@@ -36,20 +60,8 @@ codex plugin add fin-winner@xcanity
 ### 其他 MCP 客户端（Cursor、Windsurf、VS Code、Gemini CLI、claude.ai 连接器等）
 
 本仓库的插件都由远程 Streamable HTTP MCP 服务提供支持，并支持 OAuth 2.1
-自动发现，因此任何 MCP 客户端只需配置端点 URL 即可连接：
-
-```json
-{
-  "mcpServers": {
-    "fin-winner": {
-      "type": "http",
-      "url": "https://xcanity.com/fw-plugin/mcp"
-    }
-  }
-}
-```
-
-各插件的端点地址和客户端注意事项见对应插件目录下的 README。
+自动发现，因此任何 MCP 客户端只需配置端点 URL 即可连接。各插件的端点地址和
+客户端注意事项见对应插件目录下的 README。
 
 ## 仓库结构
 

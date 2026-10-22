@@ -4,25 +4,5 @@
     "name": "xcan-ai"
   },
   "description": "Xcan agent plugins backed by hosted MCP services.",
-  "plugins": [
-    {
-      "name": "fin-winner",
-      "source": "./plugins/fin-winner",
-      "displayName": "Fin Winner",
-      "description": "Manage watchlists, stock thoughts, valuations, insights, ticker strategies, and analysis reports through the authenticated Fin Winner MCP service.",
-      "version": "0.3.4",
-      "author": {
-        "name": "Fin Winner"
-      },
-      "homepage": "https://xcanity.com",
-      "repository": "https://github.com/xcan-ai/xcanity-plugins",
-      "category": "finance",
-      "keywords": [
-        "finance",
-        "investing",
-        "mcp",
-        "fin-winner"
-      ]
-    }
-  ]
+  "plugins": []
 }

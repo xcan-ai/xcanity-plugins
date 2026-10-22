@@ -3,18 +3,5 @@
   "interface": {
     "displayName": "Xcanity"
   },
-  "plugins": [
-    {
-      "name": "fin-winner",
-      "source": {
-        "source": "local",
-        "path": "./plugins/fin-winner"
-      },
-      "policy": {
-        "installation": "AVAILABLE",
-        "authentication": "ON_INSTALL"
-      },
-      "category": "Finance"
-    }
-  ]
+  "plugins": []
 }
